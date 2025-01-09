@@ -16,6 +16,7 @@ theme:
     - search.highlight
     - search.share
     - content.code.copy
+    - content.code.select
   
   palette:
 
@@ -52,6 +53,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
 
 extra:
   social:
@@ -75,6 +78,11 @@ copyright: Copyright &copy; 2024 Ethan Goh (PEG)
 nav:
   - Home: index.md
   - About: about.md
+  - Setting Up:
+    - Docker: setting_up/docker.md
+    - VSCode: setting_up/vscode.md
+    - PyEnv: setting_up/pyenv.md
+    - Poetry: setting_up/poetry.md
   - Projects:
     - Main: projects/main.md
     - CloudFlare Tunnel: projects/cloudflare.md
