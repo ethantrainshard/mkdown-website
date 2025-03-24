@@ -1,6 +1,6 @@
 ---
 date:
-  created: 2025-03-24
+        created: 2025-03-24
 categories:
     - General
 tags:
