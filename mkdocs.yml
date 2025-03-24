@@ -19,7 +19,7 @@ theme:
     - search.share
   #   - content.code.copy
   #   - content.code.select
-  
+
   palette:
 
     # Palette toggle for automatic mode
@@ -74,7 +74,6 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - md_in_html
-  - pymdownx.blocks.caption
 
 hooks:
   - hooks/socialmedia.py
