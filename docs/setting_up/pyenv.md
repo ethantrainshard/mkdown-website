@@ -15,23 +15,23 @@ tags:
 
 It is a powerful tool that helps developers manage multiple Python versions efficiently and easily, making it an essential part of the development workflow.
 
-## Key Features:
+## Key Features
 
 - Multiple Python Versions: Pyenv enables you to have multiple Python versions installed simultaneously.
 - Version Management: Easily switch between different Python versions as needed for various projects.
 - Shell Integration: Provides shell functions that simplify working with different Python versions.
 - Compatibility: Works on Unix-like operating systems, including macOS and Linux.
 
-## Pros:
+## Pros
 
 - Isolation: Each Python version can be configured independently, avoiding conflicts between project requirements.
 - Simplicity: Easy to install and use, reducing the complexity of managing multiple Python environments.
 - Flexibility: Supports both global and local Python versions for different projects.
 - Automation: Automates the process of switching between Python versions, saving time.
 
-## Installation Methods:
+## Installation Methods
 
-#### 1. Using pyenv-installer (Recommended):
+#### 1. Using pyenv-installer (Recommended)
 
 - Open a terminal and run:
     ```bash
@@ -43,7 +43,7 @@ It is a powerful tool that helps developers manage multiple Python versions effi
     ```
 - Follow the installation instructions displayed in the terminal.
 
-#### 2. Manual Installation:
+#### 2. Manual Installation
 
 - Clone the pyenv repository to your home directory:
     ```bash
@@ -67,7 +67,7 @@ It is a powerful tool that helps developers manage multiple Python versions effi
         source ~/.zshrc
     ```
 
-#### 3. Using Homebrew (macOS):
+#### 3. Using Homebrew (macOS)
 
 - Open a terminal and run:
     ```bash
@@ -76,7 +76,7 @@ It is a powerful tool that helps developers manage multiple Python versions effi
     ```
 - Follow the installation instructions displayed in the terminal.
 
-## Example Usage:
+## Basic Commands
 
 - Install a specific Python version:
     ```bash

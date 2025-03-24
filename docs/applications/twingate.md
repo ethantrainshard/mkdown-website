@@ -1,0 +1,42 @@
+---
+tags:
+    - Docker
+    - Twingate
+    - VPN
+    - Step-By-Step
+---
+
+# Twingate Connector - Local VPN Service
+
+
+
+
+
+
+
+
+
+
+
+
+```
+services:
+  twingate_connector:
+    container_name: twingate_connector
+    image: docker.io/twingate/connector:1.73.0
+    environment:
+        - TWINGATE_NETWORK= # <account name>.twingate.com
+        - TWINGATE_ACCESS_TOKEN=
+        - TWINGATE_REFRESH_TOKEN=
+      # -- (Optional) Change loglevel
+      # - TWINGATE_LOG_LEVEL=3
+      # -- (Optional) Add custom DNS Server
+      # - TWINGATE_DNS=10.20.0.1
+    sysctls:
+      net.ipv4.ping_group_range: "0 2147483647"
+    # -- (Optional) When using a custom network
+    # networks:
+    #   - your-custom-network
+    restart: unless-stopped
+
+```

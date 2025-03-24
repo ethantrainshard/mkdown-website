@@ -1,23 +1,26 @@
 site_name: CyberITDad
+site_description: "This is the place where I put down things that I have learnt over the years in Culinary, Tech and Home Auotmations."
 theme:
   name: material
   features:
     - navigation.instant
     - navigation.instant.progress
-    - navigation.instant.preview
+    # - navigation.instant.preview
     - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tabs
+    # - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
-    - toc.integrate
+  #   - navigation.expand
+  #   - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
     - search.share
-    - content.code.copy
-    - content.code.select
+  #   - content.code.copy
+  #   - content.code.select
   
+  
+
   palette:
 
     # Palette toggle for automatic mode
@@ -25,6 +28,8 @@ theme:
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
+      primary: deep orange
+      accent: deep purple
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -32,6 +37,8 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+      primary: blue
+      accent: deep orange
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -39,9 +46,19 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+      primary: deep orange
+      accent: deep purple
 
 plugins:
   - search
+  - blog:
+      blog_dir: ./blog
+      categories_allowed:
+        - Tech
+        - Food
+        - Home Automations
+        - General
+      post_url_format: "{slug}"
   - tags:
       tags_file: tags.md
 
@@ -50,15 +67,22 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
   - attr_list
   - md_in_html
+  - pymdownx.blocks.caption
+
+hooks:
+  - hooks/socialmedia.py
 
 extra:
   social:
-    - icon: fontawesome/brands/github 
+    - icon: fontawesome/brands/github-alt
       link: https://github.com/ethantrainshard
       name: Ethan's Github
     - icon: fontawesome/brands/linkedin
@@ -76,18 +100,23 @@ extra:
 copyright: Copyright &copy; 2024 Ethan Goh (PEG)
 
 nav:
-  - Home: index.md
-  - About: about.md
-  - Setting Up:
-    - Docker: setting_up/docker.md
-    - VSCode: setting_up/vscode.md
-    - PyEnv: setting_up/pyenv.md
-    - Poetry: setting_up/poetry.md
-  - Projects:
-    - Main: projects/main.md
-    - CloudFlare Tunnel: projects/cloudflare.md
-    - Ollama: projects/ollama.md
-    - OpenwebUI: projects/openwebui.md
-    - Langchain RAG: projects/langchain_rag.md
+  - Bio: index.md
+#   - Setting Up Laptop:
+#     - Main: setting_up/main.md
+#     - Docker: setting_up/docker.md
+#     - VSCode: setting_up/vscode.md
+#     - PyEnv: setting_up/pyenv.md
+#     - Poetry: setting_up/poetry.md
+#     - UV: setting_up/uv.md
+#   - Self-Hosted Applications on Local Server:
+#     - Main: applications/main.md
+#     - Twingate VPN: applications/twingate.md
+#     - Nginx Proxy Manager: applications/npm.md
+#     - Ollama: applications/ollama.md
+#     - OpenwebUI: applications/openwebui.md
+#   - Projects:
+#     - Main: projects/main.md
+#     - Custom Ollama Server Docker: projects/ollama_server_docker.md
+  - Blog of Knowledge, Projects and Recipes:
+    - blog: blog/index.md
   - Tags: tags.md
-

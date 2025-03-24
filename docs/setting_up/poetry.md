@@ -4,6 +4,7 @@ tags:
     - poetry
     - python
     - dependency management
+    - version management
 ---
 
 # Poetry - Packaging and Dependency Management
@@ -13,7 +14,7 @@ tags:
 
 It is an excellent tool for Python developers, simplifying the process of managing dependencies and packaging projects. Its key features make it a valuable addition to any development workflow.
 
-## Key Features:
+## Key Features
 
 1. Dependency Management: Manages project dependencies in an isolated environment.
 Version Constraints: Specifies version constraints for packages to ensure compatibility.
@@ -21,16 +22,16 @@ Version Constraints: Specifies version constraints for packages to ensure compat
 3. Packaging & Distribution: Simplifies the packaging and distribution of Python projects.
 4. Consistent Project Structure: Ensures consistent structure across different projects.
 
-## Installation Methods:
+## Installation Methods
 
-#### 1. Using pip (Python's Package Installer):
+#### 1. Using pip (Python's Package Installer)
 
 - Open a terminal and run:
     ```bash
         pip install poetry
     ```
 
-#### 2. Installing from Source:
+#### 2. Installing from Source
 
 - Clone the Poetry repository to your local machine:
     ```bash
@@ -49,14 +50,14 @@ Version Constraints: Specifies version constraints for packages to ensure compat
         source ~/.zshrc
     ```
 
-#### 3. Using Homebrew (macOS):
+#### 3. Using Homebrew (macOS)
 
 - Open a terminal and run:
     ```bash 
         brew install poetry
     ```
 
-#### 4. Using Scoop (Windows):
+#### 4. Using Scoop (Windows)
 
 - Install Scoop if you haven't already by following the instructions on Scoop's website.
 - Open PowerShell as Administrator and run:
@@ -65,7 +66,7 @@ Version Constraints: Specifies version constraints for packages to ensure compat
         scoop install poetry
     ```
 
-## Example Usage:
+## Basic Commands
 
 - Initialize a new Poetry project:
     ```bash

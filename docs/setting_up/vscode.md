@@ -7,15 +7,18 @@ tags:
 ---
 
 # VSCode - IDE for Developers
- 
-<!-- ![ollama](https://ollama.com/public/ollama.png) -->
+
+![ollama](https://ollama.com/public/ollama.png)
+
 
 ## Description
 VSCode (Visual Studio Code) is an open-source code editor made by Microsoft that supports programming in multiple languages, including JavaScript, Python, C++, Java, and many others. It offers a lightweight yet powerful toolset, allowing developers to quickly build, debug, and test applications with the help of extensions, which add functionality to the core editor.
 
 It is a powerful and flexible tool that offers both beginner-friendly features and advanced capabilities for professional developers, making it an excellent choice for a wide range of programming tasks.
 
-#### Key Features:
+<br>
+
+#### Key Features
 
 - Lightweight & Fast: VSCode is designed for efficiency, requiring minimal system resources.
 - Rich Extensions: A vast ecosystem of extensions that can enhance its functionality based on developer needs.
@@ -24,26 +27,30 @@ It is a powerful and flexible tool that offers both beginner-friendly features a
 - Git Integration: Built-in support for Git version control.
 - Terminal & SSH: Integrated terminal and SSH capabilities make it easy to work with remote servers.
 
-#### Pro Features:
+<br>
+
+#### Pro Features
 
 - Multi-language Support: Excellent support for multiple programming languages.
 - Extensibility: Highly extensible through a rich plugin ecosystem.
 - User-Friendly Interface: Intuitive UI and customizable settings.
 - Cross-Platform: Available on Windows, macOS, and Linux.
 
+<br>
+
 ## Installation Methods
 
-#### 1. Windows Installation:
+#### 1. Windows Installation
 
 - Download the installer from the [VSCode website](https://code.visualstudio.com).
 - Run the downloaded ```.exe``` file and follow the installation wizard to complete the setup.
 
-##### 2. macOS Installation:
+#### 2. macOS Installation
 
 - Download the ```.zip``` archive from the [VSCode website](https://code.visualstudio.com).
 - Unzip the contents and move the Visual Studio Code.app to your Applications folder.
 
-##### 3. Linux Installation:
+#### 3. Linux Installation
 
 - For Debian-based systems (like Ubuntu), open a terminal and run:
   ```bash

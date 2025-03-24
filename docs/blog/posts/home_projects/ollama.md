@@ -1,13 +1,27 @@
 ---
+date:
+    created: 2025-03-17
+categories:
+    - Tech
 tags:
-    - Docker
-    - Ollama
-    - Local AI
+    - docker
+    - ollama
+    - local AI
+    - step by step
+authors:
+    - dev
+slug: local-ai-server-ollama
 ---
 
 # Ollama - Your Local LLM Server
+
+Ollama is an open source project that aims to provide a local language model server. It is designed to be easy to use and deploy, making it accessible for developers and researchers alike.
+
+<!-- more -->
  
-![ollama](https://ollama.com/public/ollama.png)
+<p align="center">
+    <img src="https://ollama.com/public/ollama.png" alt="Ollama">
+</p>
 
 ## Description
 Ollama is an open source project that aims to provide a local language model server. It is designed to be easy to use and deploy, making it accessible for developers and researchers alike.
@@ -15,9 +29,9 @@ Ollama is versatile and can be used in various applications such as chatbots, vi
 
 Ollama can be installed on different platforms such as Linux, MacOS, and Windows. The installation process is straightforward and can be completed in a few minutes. It also supports docker.
 
-
 ## Purpose of Having a Local LLM
 Having a local LLM server allows organizations which have restrictions for using AI. It gives them the flexibility to use AI without worrying about compliance issues, as they can control their own infrastructure. It also allows organizations to have more control over their data and avoid privacy concerns associated with cloud-based solutions.
+
 
 ## Uses
 - Chatbots
@@ -27,6 +41,7 @@ Having a local LLM server allows organizations which have restrictions for using
 - Sentiment Analysis
 - Question Answering
 - Code Completion / Refactoring / Debugging
+
 
 ## Installation
 
@@ -50,4 +65,5 @@ The official Ollama Docker image [ollama/ollama](https://hub.docker.com/r/ollama
 
 ### Docker (With Restriction)
 
+If you are unable to create a Docker container using the official Ollama Docker image, you can use the following Dockerfile to build your own. The [Dockerfile](https://github.com/ethantrainshard/ollama-server-docker) is hosted in my Github Repo.
 

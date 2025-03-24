@@ -14,7 +14,7 @@ Docker is a platform designed to simplify application deployment, scaling, and m
 
 It is a versatile platform that simplifies the process of building, deploying, and managing applications across different environments. Its key features make it an essential tool for developers and DevOps professionals looking to streamline their workflows.
 
-## Key Features:
+## Key Features
 
 1. Portability: Containers are self-contained and consistent, allowing them to run in any environment.
 2. Efficiency: Shares the operating system kernel, reducing resource usage and startup time.
@@ -22,26 +22,26 @@ It is a versatile platform that simplifies the process of building, deploying, a
 4. Scalability: Easily scales applications up or down as needed using container orchestration tools.
 5. Security: Provides strong isolation and security features to protect against vulnerabilities.
 
-## Uses:
+## Uses
 
 - Development & Testing: Consistent development environments across different teams and machines.
 - Deployment: Simplifies deployment to various cloud platforms and on-premises environments.
 - CI/CD: Facilitates continuous integration and delivery pipelines.
 - Microservices: Enables the creation of loosely coupled services.
 
-## Installation Methods:
+## Installation Methods
 
-#### 1. Windows Installation:
+#### 1. Windows Installation
 
 - Download Docker Desktop from the [Docker website](https://www.docker.com/products/docker-desktop).
 - Run the installer and follow the setup wizard to install Docker on Windows.
 
-#### 2. macOS Installation:
+#### 2. macOS Installation
 
 - Download Docker Desktop from the [Docker website](https://www.docker.com/products/docker-desktop).
 - Run the downloaded .dmg file and drag Docker to your Applications folder.
 
-#### 3. Linux Installation (Ubuntu):
+#### 3. Linux Installation (Ubuntu)
 
 - Open a terminal and run:
     ```bash
@@ -50,7 +50,7 @@ It is a versatile platform that simplifies the process of building, deploying, a
     ```
 - Verify installation by running ```sudo docker --version```.
 
-#### 4. Linux Installation (CentOS):
+#### 4. Linux Installation (CentOS)
 
 - Open a terminal and run:
     ```bash
@@ -59,7 +59,7 @@ It is a versatile platform that simplifies the process of building, deploying, a
     ```
 - Verify installation by running ```sudo docker --version```.
 
-#### 5. Linux Installation (Fedora):
+#### 5. Linux Installation (Fedora)
 
 - Open a terminal and run:
     ```bash

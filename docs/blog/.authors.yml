@@ -1,0 +1,10 @@
+authors:
+  dev:
+    name: Dev Ethan
+    description: Backend Developer | AI Enthusiast
+    avatar: ./blog/assets/images/ethan_dev.png
+    url: https://www.linkedin.com/in/ethan-goh-9b6615a7
+  chef:
+    name: Chef Ethan
+    description: Home Cook
+    avatar: ./blog/assets/images/ethan_chef.jpeg
